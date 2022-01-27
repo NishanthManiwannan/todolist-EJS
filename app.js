@@ -5,7 +5,7 @@ const _ = require("lodash");
 
 //--------------- connecting mongoos ---------------------
 const mongoos = require("mongoose");
-mongoos.connect("mongodb+srv://ManiNishanth:Gaps01MDB@cluster0.ymaer.mongodb.net/ToDoList", {
+mongoos.connect("mongoURL here/ToDoList", {
   useNewUrlParser: true,
 });
 // --------------------------------------------------------
